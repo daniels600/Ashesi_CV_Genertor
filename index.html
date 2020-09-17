@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="fixed-header">
+      <div class="container">
+        <nav>
+          <h2>Ashesi CV Generator</h2>
+        </nav>
+      </div>
+    </div>
+    <div id = "create-form" class="signup-form">
+      <form onsubmit="return validateForm ()" action="cv.html" method="post">
+        <h2>Create CV</h2>
+        <p>
+          Please fill in this form to create your Curriculum Vitae / Resume!
+        </p>
+        <hr />
+        <div class="formKit">
+          <input
+            type="text"
+            id="f_name"
+            class="form-control"
+            placeholder="Enter first name"
+            required="required"
+          />
+          <small>Error output</small>
+        </div>
+        <div class="formKit">
+          <input
+            type="text"
+            id="m_name"
+            class="form-control"
+            placeholder="Enter Middle name"
+            required="required"
+          />
+          <small>Error output</small>
+        </div>
+        <div class="formKit">
+          <input
+            type="text"
+            id="l_name"
+            class="form-control"
+            placeholder="Enter Last name"
+            required="required"
+          />
+          <small>Error output</small>
+        </div>
+        <div class="formKit">
+          <fieldset>
+            <legend>Gender</legend>
+            <label>Select your Gender : </label>
+            <select required>
+              <option id="gender" value="Male">Male</option>
+              <option id="gender" value="Female">Female</option>
+            </select>
+          </fieldset>
+        </div>
+        <div class="formKit">
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            class="form-control"
+            placeholder="Enter Phone number"
+            required
+          />
+          <small>Error output</small>
+        </div>
+        <div class="formKit">
+          <input
+            type="text"
+            id="email"
+            class="form-control"
+            name="email"
+            placeholder="Enter Email (s)"
+            required="required"
+          />
+          <small>Error output</small>
+        </div>
+        
+        <div class="formKit">
+          <input
+            type="text"
+            id="postal-addr"
+            class="form-control"
+            placeholder="Enter Postal Address"
+            required="required"
+          />
+          
+        </div>
+
+        <div class="formKit">
+          <button type="submit" class="btn">Create</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="fixed-footer">
+      <div class="container">Copyright &copy; Eugene Daniels</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

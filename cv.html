@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Template</title>
+  </head>
+  <body>
+    <div class="cv-form">
+        <div class="top-details">
+
+          <h3 style="color: blue; text-align: center" id="name-holder"></h3>
+         
+          <p style="color: blue; text-align: center" id="postal-holder"></p>
+          <p style="color: blue; text-align: center" id="phone-holder">
+            Phone Number /
+            <span id="nationality-holder"> </span>
+          </p>
+          <p style="color: blue; text-align: center" id="email-holder"> </p>
+
+          <script>
+            const name = `${localStorage.getItem('name')}`;
+            document.getElementById('name-holder').innerText =  name;
+            // console.log( localStorage.getItem('name'));
+
+            const p_adrr = `${localStorage.getItem('postal-addr')}`;
+            document.getElementById('postal-holder').innerText = p_adrr;
+
+
+            const p_num = `${localStorage.getItem('phone_num')}`;
+            document.getElementById('phone-holder').innerText = p_num;
+
+            const email =  `${localStorage.getItem('email')}`;
+            document.getElementById('email-holder').innerText = email;
+
+          </script>
+
+        </div>
+        <span><b>OBJECTIVE</b></span>
+        <hr />
+        <P>Seeking a challenging entry-level position in Sales and Marketing with considerable opportunities for growth. </P>
+        <span><b>EDUCATION</b></span>
+        <hr />
+        <div class = "Education-sec-1" style="width:content_width">
+          <p style="float:left; margin:0;padding:0;"><b>Ashesi University College</b></p> 
+          <p style="float:right; margin:0;padding:0;"><b>Berekuso, Eastern Region</b></p>
+        </div>
+        <br />
+        <br />
+        <div class ="Education-sec1" >
+          <p style="float:left; margin:0;padding:0;" id="completion-course-holder">BSc. Business Administration
+          <span></p> 
+          <p style="float:right;margin:0;padding:0;" >August 2004 – May 2007</p>
+          <br />
+          <ul>
+            <li>
+                <span style="word-spacing: 1rem;">
+                  <b>Relevant Courses: </b> 
+                  Social Theory Entrepreneurship Marketing Competitive Strategy Development Economics Investment Human Resource Management
+                </span>
+            </li>
+          </ul>
+        </div>
+        <br />
+       
+
+        <div> 
+          <span><b>ACHIEVEMENTS/AWARDS </b></span>
+          <hr />
+          <p> Dean’s List 2004 </p> 
+        </div>
+        
+        <span><b> WORK EXPERIENCE </b></span>
+        <hr />
+        <p style="float:left; margin:0;padding:0;"> <b>Summer Intern, ABC Limited </b></p>
+        <p style="float:right; margin:0;padding:0;"><b>Accra, Greater Accra</b></p><br />
+        <span style="float:right; margin:0;padding:0;"><b>July – Aug, 2007</b></span>
+        <br />
+        <ul>
+          <li >
+            Prepared financial valuations and modeling for Access Bank, Nigeria 
+          </li>
+          <li> 
+            Prepared 5-year financial projections for Access Bank, Nigeria 
+          </li>
+          <li>
+            Prepared business summary for a Business Plan for funding 
+          </li>
+          <li>
+            Prepared a seven page research report on the bank 
+          </li>
+        </ul>
+        <p style="float:left; margin:0;padding:0;"> <b>President, ARM  </b></p>
+        <p style="float:right; margin:0;padding:0;"><b>Accra, Greater Accra</b></p>
+        <br />
+        <span style="float:right; margin:0;padding:0;"><b>Dec. 2006 –present </b></span>
+        <br />
+        <ul>
+          <li>
+            Managed club and presided over club activities and Editorial Meetings
+          </li>
+          <li> 
+            Organized seminars involving key figures at Ashesi to dialogue on the role of leadership in Africa. 
+          </li>
+          <li>
+            Liaised with visiting key personalities for seminars and events 
+          </li>
+          <li>
+            Increased membership and developed club programs by 22% and 40% respectively 
+          </li>
+        </ul>
+        <p style="float:left; margin:0;padding:0;"> <b>Marketing Executive, Crisps Radio, Tamale.  </b></p>
+        <p style="float:right; margin:0;padding:0;"><b>Accra, Greater Accra</b></p>
+        <br />
+        <span style="float:right; margin:0;padding:0;"><b>June – August 2005</b></span>
+        <br />
+        <ul>
+          <li>
+            Assisted the Marketing Manager to expand the market share of company 
+          </li>
+          <li> 
+            Wrote jingles, Live Presenter Mentions (LPMs) and promotional announcements. 
+          </li>
+          <li>
+            Produced an elite talk show dubbed (Excellent Talk with Excellent Personalities)
+          </li>
+          <li>
+            Wrote proposals for live programs, promotions and adverts for products and companies.
+          </li>
+        </ul>
+        <br />
+        <p><b>OTHER SKILLS</b></p>
+        <hr>
+        <p style="line-height: normal;">Communication—brief description 
+        </p>
+        <p style="line-height: normal;">Computer—state key components  
+        </p>
+        <p style="line-height: normal;">Leadership—mention specific leadership roles and accomplishments  
+        </p>
+
+        <br />
+        <p><b>CO-CURRICULAR ACTIVITIES</b></p>
+        <hr>
+        <p>Clubs etc 
+        </p>
+
+        <br />
+        <p><b>REFERENCES</b></p>
+        <hr>
+        <p>Available upon request   
+        </p>
+
+
+    </div>
+  </body>
+</html>

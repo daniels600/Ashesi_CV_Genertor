@@ -1,0 +1,136 @@
+
+body {
+	color: #fff;
+	background: #2da07d;
+	font-family: 'Roboto', sans-serif;
+	justify-content: center;
+}
+
+/*You can delete this*/
+.form-control {
+	height: 41px;
+	background: #f2f2f2;
+	box-shadow: none !important;
+	border: none;
+}
+
+.formKit input{
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	border: 2px solid #f0f0f0;
+  	border-radius: 4px;
+  	display: block;
+}
+.formKit {
+	text-align: center;
+	line-height: 150%;
+}
+
+.formKit.success input {
+	border-color: #3ce775;
+  }
+  
+.formKit.error input {
+	border-color: #c92424;;
+}
+  
+.formKit small {
+	color: #c92424;;
+	position: static;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+  }
+
+  .formKit.error small {
+	visibility: visible;
+  }
+
+.signup-form {
+	width: 600px;
+	margin: 30px auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.signup-form form {
+	color: #999;
+	border-radius: 6px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form h2  {
+	color: #333;
+	font-weight: bold;
+	margin-top: 0;
+	text-align: center;
+}
+.signup-form hr  {
+	margin: 0 -30px 20px;
+}    
+.signup-form .formKit {
+	margin-bottom: 20px;
+}
+
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #3598dc;
+	border: none;
+	min-width: 140px;
+	text-align: center;
+	justify-content: center;
+}
+
+.fixed-header{
+  width: 100%;
+  position: fixed;
+  background: #333;
+  padding: 2px 0;
+  color: #fff;
+  box-shadow: 0 0 6px #000;
+}
+
+.fixed-header{
+  top: 0;
+}
+
+.fixed-footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+  
+} 
+
+h2 {
+	text-align: center;
+	width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto; /* Center the DIV horizontally */
+}
+.cv-form {
+	width: 600px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.top-details h3 {
+	line-height: 150%;
+}
+
+.top-details p {
+	line-height: 150%;
+}
+
