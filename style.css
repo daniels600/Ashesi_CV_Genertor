@@ -1,11 +1,12 @@
 
-body {
+.index_body{
 	color: #fff;
 	background: #2da07d;
 	font-family: 'Roboto', sans-serif;
 	justify-content: center;
 	line-height: 150%;
 }
+
 
 .formKit input{
 	width: 100%;
@@ -111,12 +112,12 @@ h2 {
 
 .container{
 	width: 80%;
-	margin: 0 auto; /* Center the DIV horizontally */
+	margin: 0 auto;
 }
+
 .cv-form {
-	width: 600px;
-	margin: 30px auto;
-	text-align: center;
+	width: 800px;
+	margin: 30px auto; 
 }
 
 .top-details h3 {
@@ -127,3 +128,30 @@ h2 {
 	line-height: 150%;
 }
 
+.top-details h3{
+	text-align: center;
+}
+
+#postal-holder {
+  text-align: center;
+}
+
+#phone-holder {
+  text-align: center;
+}
+
+#email-holder {
+  text-align: center;
+}
+
+.on_left {
+  float:left; 
+  margin:0;
+  padding:0;
+}
+
+.on_right {
+  float:right; 
+  margin:0;
+  padding:0;
+}
