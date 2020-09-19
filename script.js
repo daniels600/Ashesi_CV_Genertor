@@ -29,7 +29,7 @@ function checkEmail(input) {
     showSuccess(input);
     return true;
   } else {
-    showError(input, 'Email is not valid');
+    showError(input, 'Email Invalid');
     return false;
   }
 }
@@ -78,21 +78,6 @@ function validateForm () {
 
     let postal_address = `${p_addr.value}`;
     localStorage.setItem('postal-addr', `${postal_address}`);
-
-   
-    // transfering the values to cv.html
-
-    // let name = document.getElementById('name-holder');
-    // name.innerHTML += `${localStorage.getItem("name")}`;
-
-    // let p_address = document.getElementById("postal-holder");
-    // p_address.innerHTML += localStorage.getItem('postal-addr');
-
-    // let p_number = document.getElementById('phone-holder');
-    // p_number.innerHTML += localStorage.getItem('phone_num');
-
-    // let p_email = document.getElementById('email-holder');
-    // p_email.innerHTML += localStorage.getItem('emai');
 
     return true;
   }
