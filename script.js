@@ -24,8 +24,8 @@ function showSuccess(input) {
 
 // Check email is valid
 function checkEmail(input) {
-  const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  if (re.test(input.value.trim())) {
+  const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  if (regex.test(input.value.trim())) {
     showSuccess(input);
     return true;
   } else {
@@ -63,7 +63,9 @@ function checkPhone(input) {
 
 //check validity of form 
 function validateForm () {
-  if( checkName(f_name) && checkName(m_name) && checkName(l_name) && checkEmail(email) && checkPhone(phone_num)){
+  if( checkName(f_name) && checkName(m_name) 
+  && checkName(l_name) && checkEmail(email) 
+  && checkPhone(phone_num)){
 
     // creating the key-value pair for the inputs taken
     let u_name =  `${f_name.value}  ${m_name.value}  ${l_name.value}`;
